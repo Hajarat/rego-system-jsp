@@ -1,0 +1,73 @@
+html {
+	background-color: #d3bfb7;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+h1 {
+	color: #343;
+}
+
+input[type=text], [type=password] {
+  background-color: #CCC;
+  color: #343;
+}
+
+button {
+  background-color: #CCC;
+  border: 2px SOLID #343;
+  color: #343;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+	color: #343;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #343;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #349;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+}
+
+/* Class tags */
+
+.submitlocation {
+	float:right;
+}
+
+.email_box {
+	width: 180px;
+}
+
+.update_user_button {
+	background:none;
+	padding:0;
+	color: #343;
+	text-decoration: none;
+}
+
+.update_user_button:hover {
+	color: #349;
+}
+
+.update_user_button:active {
+	color: blue;
+}

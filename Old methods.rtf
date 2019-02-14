@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red63\green127\blue95;}
+{\*\expandedcolortbl;;\csgenericrgb\c24706\c49804\c37255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 saveUser old method:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs22 \cf2 //		String fileSeparator = System.getProperty("file.separator");\cf0 \
+\cf2 //		String root = fileSeparator + "Users" + fileSeparator + "\ul hajarat\ulnone " +\cf0 \
+\cf2 //				fileSeparator + "Workspaces" + fileSeparator + "Java" +\cf0 \
+\cf2 //				fileSeparator + "Registration" + fileSeparator + "users.txt";\cf0 \
+\cf2 //		\cf0 \
+\cf2 //		try (Writer writer = new FileWriter(root, true)) \{\cf0 \
+\cf2 //			writer.write(user.getName() + ",");\cf0 \
+\cf2 //			writer.write(user.getAge() + ",");\cf0 \
+\cf2 //			writer.write(user.getLevel() + ",");\cf0 \
+\cf2 //			writer.write(user.getEmail() + ",");\cf0 \
+\cf2 //			writer.write(user.getPassword() + "\\n");\cf0 \
+\cf2 //		\} catch (IOException e) \{\cf0 \
+\cf2 //			e.printStackTrace();\cf0 \
+\cf2 //			return ErrorCodes.SAVE_USER_FAILED;\cf0 \
+\cf2 //		\} 	\cf0 \
+\cf2 //		return "success";\
+\
+viewUsersServlet old doGet method:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 //		String fileSeparator = System.getProperty("file.separator");\cf0 \
+\cf2 //		String root = fileSeparator + "Users" + fileSeparator + "\ul hajarat\ulnone " +\cf0 \
+\cf2 //				fileSeparator + "Workspaces" + fileSeparator + "Java" +\cf0 \
+\cf2 //				fileSeparator + "Registration" + fileSeparator + "users.txt";\cf0 \
+\cf2 //		String line;\cf0 \
+\cf2 //		String[] values;\cf0 \
+\cf2 //		ArrayList<User> users = new ArrayList<User>(); //Array to send to JSP for display\cf0 \
+\cf2 //		\cf0 \
+\cf2 //		try (FileReader file = new FileReader(root)) \{\cf0 \
+\cf2 //			BufferedReader bufferedReader =  new BufferedReader(file);\cf0 \
+\cf2 //			while((line = bufferedReader.readLine()) != null) \{\cf0 \
+\cf2 //                values = line.split(",");\cf0 \
+\cf2 //                users.add(new User(values[0], Integer.parseInt(values[1]), Integer.parseInt(values[2]), values[3], values[4]));\cf0 \
+\cf2 //			\}\cf0 \
+\cf2 //			bufferedReader.close();\cf0 \
+\cf2 //		\} catch (Exception e) \{\cf0 \
+\cf2 //			e.printStackTrace();\cf0 \
+\cf2 //		\}\cf0 \
+\cf2 //		request.setAttribute("users", users);\cf0 \
+\cf2 //		request.getRequestDispatcher("/display_users.jsp").forward(request, response);\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+}
